@@ -8,7 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1F520C5A1503A3AC0042B7A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F520C591503A3AC0042B7A8 /* main.cpp */; };
-		1F520C5C1503A3AC0042B7A8 /* QPong.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F520C5B1503A3AC0042B7A8 /* QPong.1 */; };
+		1F606857150426A100C338C2 /* GameView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F606854150426A100C338C2 /* GameView.cpp */; };
+		1F606858150426A100C338C2 /* moc_GameView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F606856150426A100C338C2 /* moc_GameView.cpp */; };
+		1F89825F1503AB59001E9908 /* QtGui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F89825E1503AB59001E9908 /* QtGui.framework */; };
+		1F8982621503AC77001E9908 /* QtCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8982611503AC77001E9908 /* QtCore.framework */; };
+		1F89827A1503B5F5001E9908 /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F8982631503B5F5001E9908 /* Ball.cpp */; };
+		1F89827B1503B5F5001E9908 /* ComputerPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F8982651503B5F5001E9908 /* ComputerPlayer.cpp */; };
+		1F89827C1503B5F5001E9908 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F8982691503B5F5001E9908 /* Game.cpp */; };
+		1F89827D1503B5F5001E9908 /* GameField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F89826B1503B5F5001E9908 /* GameField.cpp */; };
+		1F89827E1503B5F5001E9908 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F89826D1503B5F5001E9908 /* GameObject.cpp */; };
+		1F8982801503B5F5001E9908 /* HumanPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F8982721503B5F5001E9908 /* HumanPlayer.cpp */; };
+		1F8982811503B5F5001E9908 /* Paddle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F8982751503B5F5001E9908 /* Paddle.cpp */; };
+		1F8982821503B5F5001E9908 /* QDrawingContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F8982791503B5F5001E9908 /* QDrawingContext.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +29,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				1F520C5C1503A3AC0042B7A8 /* QPong.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -26,8 +36,33 @@
 
 /* Begin PBXFileReference section */
 		1F520C551503A3AC0042B7A8 /* QPong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QPong; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F520C591503A3AC0042B7A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		1F520C5B1503A3AC0042B7A8 /* QPong.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = QPong.1; sourceTree = "<group>"; };
+		1F520C591503A3AC0042B7A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = QPong/main.cpp; sourceTree = "<group>"; };
+		1F606854150426A100C338C2 /* GameView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameView.cpp; path = QPong/GameView.cpp; sourceTree = "<group>"; };
+		1F606855150426A100C338C2 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameView.h; path = QPong/GameView.h; sourceTree = "<group>"; };
+		1F606856150426A100C338C2 /* moc_GameView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moc_GameView.cpp; path = QPong/moc_GameView.cpp; sourceTree = "<group>"; };
+		1F89825E1503AB59001E9908 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = Library/Frameworks/QtGui.framework; sourceTree = SDKROOT; };
+		1F8982611503AC77001E9908 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = Library/Frameworks/QtCore.framework; sourceTree = SDKROOT; };
+		1F8982631503B5F5001E9908 /* Ball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ball.cpp; sourceTree = "<group>"; };
+		1F8982641503B5F5001E9908 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		1F8982651503B5F5001E9908 /* ComputerPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ComputerPlayer.cpp; sourceTree = "<group>"; };
+		1F8982661503B5F5001E9908 /* ComputerPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerPlayer.h; sourceTree = "<group>"; };
+		1F8982671503B5F5001E9908 /* Drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawable.h; sourceTree = "<group>"; };
+		1F8982681503B5F5001E9908 /* DrawingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingContext.h; sourceTree = "<group>"; };
+		1F8982691503B5F5001E9908 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		1F89826A1503B5F5001E9908 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		1F89826B1503B5F5001E9908 /* GameField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameField.cpp; sourceTree = "<group>"; };
+		1F89826C1503B5F5001E9908 /* GameField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameField.h; sourceTree = "<group>"; };
+		1F89826D1503B5F5001E9908 /* GameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
+		1F89826E1503B5F5001E9908 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		1F8982711503B5F5001E9908 /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		1F8982721503B5F5001E9908 /* HumanPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HumanPlayer.cpp; sourceTree = "<group>"; };
+		1F8982731503B5F5001E9908 /* HumanPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanPlayer.h; sourceTree = "<group>"; };
+		1F8982741503B5F5001E9908 /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		1F8982751503B5F5001E9908 /* Paddle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Paddle.cpp; sourceTree = "<group>"; };
+		1F8982761503B5F5001E9908 /* Paddle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paddle.h; sourceTree = "<group>"; };
+		1F8982771503B5F5001E9908 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		1F8982781503B5F5001E9908 /* QDrawingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QDrawingContext.h; path = QPong/QDrawingContext.h; sourceTree = "<group>"; };
+		1F8982791503B5F5001E9908 /* QDrawingContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = QDrawingContext.cpp; path = QPong/QDrawingContext.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8982621503AC77001E9908 /* QtCore.framework in Frameworks */,
+				1F89825F1503AB59001E9908 /* QtGui.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,7 +81,10 @@
 		1F520C4A1503A3AC0042B7A8 = {
 			isa = PBXGroup;
 			children = (
-				1F520C581503A3AC0042B7A8 /* QPong */,
+				1F8982611503AC77001E9908 /* QtCore.framework */,
+				1F89825E1503AB59001E9908 /* QtGui.framework */,
+				1F520C581503A3AC0042B7A8 /* Pong */,
+				1F89828B1503BD55001E9908 /* UI */,
 				1F520C561503A3AC0042B7A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,13 +97,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F520C581503A3AC0042B7A8 /* QPong */ = {
+		1F520C581503A3AC0042B7A8 /* Pong */ = {
 			isa = PBXGroup;
 			children = (
-				1F520C591503A3AC0042B7A8 /* main.cpp */,
-				1F520C5B1503A3AC0042B7A8 /* QPong.1 */,
+				1F8982631503B5F5001E9908 /* Ball.cpp */,
+				1F8982641503B5F5001E9908 /* Ball.h */,
+				1F8982651503B5F5001E9908 /* ComputerPlayer.cpp */,
+				1F8982661503B5F5001E9908 /* ComputerPlayer.h */,
+				1F8982671503B5F5001E9908 /* Drawable.h */,
+				1F8982681503B5F5001E9908 /* DrawingContext.h */,
+				1F8982691503B5F5001E9908 /* Game.cpp */,
+				1F89826A1503B5F5001E9908 /* Game.h */,
+				1F89826B1503B5F5001E9908 /* GameField.cpp */,
+				1F89826C1503B5F5001E9908 /* GameField.h */,
+				1F89826D1503B5F5001E9908 /* GameObject.cpp */,
+				1F89826E1503B5F5001E9908 /* GameObject.h */,
+				1F8982711503B5F5001E9908 /* Geometry.h */,
+				1F8982721503B5F5001E9908 /* HumanPlayer.cpp */,
+				1F8982731503B5F5001E9908 /* HumanPlayer.h */,
+				1F8982741503B5F5001E9908 /* InputHandler.h */,
+				1F8982751503B5F5001E9908 /* Paddle.cpp */,
+				1F8982761503B5F5001E9908 /* Paddle.h */,
+				1F8982771503B5F5001E9908 /* Player.h */,
 			);
+			name = Pong;
 			path = QPong;
+			sourceTree = "<group>";
+		};
+		1F89828B1503BD55001E9908 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1F606854150426A100C338C2 /* GameView.cpp */,
+				1F606855150426A100C338C2 /* GameView.h */,
+				1F606856150426A100C338C2 /* moc_GameView.cpp */,
+				1F8982781503B5F5001E9908 /* QDrawingContext.h */,
+				1F8982791503B5F5001E9908 /* QDrawingContext.cpp */,
+				1F520C591503A3AC0042B7A8 /* main.cpp */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,6 +144,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F520C5F1503A3AC0042B7A8 /* Build configuration list for PBXNativeTarget "QPong" */;
 			buildPhases = (
+				1F606859150426E800C338C2 /* ShellScript */,
 				1F520C511503A3AC0042B7A8 /* Sources */,
 				1F520C521503A3AC0042B7A8 /* Frameworks */,
 				1F520C531503A3AC0042B7A8 /* CopyFiles */,
@@ -111,12 +183,38 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F606859150426E800C338C2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$PROJECT_DIR\"/QPong\nrm -f QPong.pro\nqmake -project -o QPong.pro\nqmake -spec macx-g++ QPong.pro\nmake mocables";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F520C511503A3AC0042B7A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1F520C5A1503A3AC0042B7A8 /* main.cpp in Sources */,
+				1F89827A1503B5F5001E9908 /* Ball.cpp in Sources */,
+				1F89827B1503B5F5001E9908 /* ComputerPlayer.cpp in Sources */,
+				1F89827C1503B5F5001E9908 /* Game.cpp in Sources */,
+				1F89827D1503B5F5001E9908 /* GameField.cpp in Sources */,
+				1F89827E1503B5F5001E9908 /* GameObject.cpp in Sources */,
+				1F8982801503B5F5001E9908 /* HumanPlayer.cpp in Sources */,
+				1F8982811503B5F5001E9908 /* Paddle.cpp in Sources */,
+				1F8982821503B5F5001E9908 /* QDrawingContext.cpp in Sources */,
+				1F606857150426A100C338C2 /* GameView.cpp in Sources */,
+				1F606858150426A100C338C2 /* moc_GameView.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +225,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -153,7 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -201,6 +299,7 @@
 				1F520C611503A3AC0042B7A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

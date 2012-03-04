@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F520C5A1503A3AC0042B7A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F520C591503A3AC0042B7A8 /* main.cpp */; };
+		1F520C5C1503A3AC0042B7A8 /* QPong.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F520C5B1503A3AC0042B7A8 /* QPong.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F520C531503A3AC0042B7A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1F520C5C1503A3AC0042B7A8 /* QPong.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F520C551503A3AC0042B7A8 /* QPong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QPong; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F520C591503A3AC0042B7A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1F520C5B1503A3AC0042B7A8 /* QPong.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = QPong.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F520C521503A3AC0042B7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F520C4A1503A3AC0042B7A8 = {
+			isa = PBXGroup;
+			children = (
+				1F520C581503A3AC0042B7A8 /* QPong */,
+				1F520C561503A3AC0042B7A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F520C561503A3AC0042B7A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F520C551503A3AC0042B7A8 /* QPong */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F520C581503A3AC0042B7A8 /* QPong */ = {
+			isa = PBXGroup;
+			children = (
+				1F520C591503A3AC0042B7A8 /* main.cpp */,
+				1F520C5B1503A3AC0042B7A8 /* QPong.1 */,
+			);
+			path = QPong;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F520C541503A3AC0042B7A8 /* QPong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F520C5F1503A3AC0042B7A8 /* Build configuration list for PBXNativeTarget "QPong" */;
+			buildPhases = (
+				1F520C511503A3AC0042B7A8 /* Sources */,
+				1F520C521503A3AC0042B7A8 /* Frameworks */,
+				1F520C531503A3AC0042B7A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QPong;
+			productName = QPong;
+			productReference = 1F520C551503A3AC0042B7A8 /* QPong */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F520C4C1503A3AC0042B7A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1F520C4F1503A3AC0042B7A8 /* Build configuration list for PBXProject "QPong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F520C4A1503A3AC0042B7A8;
+			productRefGroup = 1F520C561503A3AC0042B7A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F520C541503A3AC0042B7A8 /* QPong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F520C511503A3AC0042B7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F520C5A1503A3AC0042B7A8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F520C5D1503A3AC0042B7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F520C5E1503A3AC0042B7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F520C601503A3AC0042B7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F520C611503A3AC0042B7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F520C4F1503A3AC0042B7A8 /* Build configuration list for PBXProject "QPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F520C5D1503A3AC0042B7A8 /* Debug */,
+				1F520C5E1503A3AC0042B7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F520C5F1503A3AC0042B7A8 /* Build configuration list for PBXNativeTarget "QPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F520C601503A3AC0042B7A8 /* Debug */,
+				1F520C611503A3AC0042B7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F520C4C1503A3AC0042B7A8 /* Project object */;
+}
